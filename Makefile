@@ -1,5 +1,5 @@
 BUILD_DIR = build
-TARGET = OpenGLApp
+TARGET = boids
 
 .PHONY: all build run tests clean
 

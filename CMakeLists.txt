@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(OpenGLApp)
+project(boids)
 
 # --- Compiler settings ---
 
@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -march=native -funroll-loops -Wall -Wextra -Wpedantic")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -Wall -Wextra -Wpedantic")
 include_directories(include)
 
 # --- External libraries ---

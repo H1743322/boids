@@ -1,15 +1,10 @@
 #include <glad/glad.h>
-
-#include "boid.hpp"
-#include "camera.hpp"
-#include "imgui.h"
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
 #include "input.hpp"
 #include "menu.hpp"
 #include "render.hpp"
 #include <GLFW/glfw3.h>
-#include <cmath>
 #include <iostream>
 
 constexpr float WIDTH = 1440;

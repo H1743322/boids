@@ -52,7 +52,6 @@ int main() {
     ImGui_ImplOpenGL3_Init("#version 330");
     ImGui::StyleColorsDark();
 
-
     Camera2D camera;
     Render render{};
     Menu menu;
@@ -60,6 +59,8 @@ int main() {
     // Build Boids
     std::vector<Boid> boids;
     BoidParams p;
+    p.bound_w = WIDTH;
+    p.bound_h = HEIGHT;
 
     for (int i = 0; i < BOIDS_COUNT; ++i) {
         Boid b;

@@ -12,7 +12,7 @@ struct BoidParams {
     float alignment_dist = 150.0f;
     float cohesion_dist = 100.0f;
     float fov_angle_rad = 3.0f / 2.0f * M_PI; // 270
-    float bound_w = 1400;
+    float bound_w = 1440;
     float bound_h = 900;
     float bound_margin = 20;
 };
